@@ -8,3 +8,4 @@ for i in range(20):
         date = f'{x} days ago'
         os.system('git add .')
         os.system(f'git commit --date="{date}" -m "E"')
+os.system('git push')
